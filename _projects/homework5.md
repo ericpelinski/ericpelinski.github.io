@@ -35,9 +35,9 @@ To handle the complexity of the dataset, I implemented an **Interactive Legend**
 </script>
 
 <div class="left">
-{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/building_inventory.csv" text="The Data" %}
+{% include elements/button.html link="https://github.com/UIUC-iSchool-DataViz/is445_data/blob/main/building_inventory.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/ericpelinski/ericpelinski.github.io/blob/main/homework6.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/ericpelinski/ericpelinski.github.io/blob/main/python_notebooks/Workbook.ipynb" text="The Analysis" %}
 </div>
