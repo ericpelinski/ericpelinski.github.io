@@ -8,11 +8,11 @@ tags: [data viz, altair, python]
 <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
 <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
-In this assignment, I explored the UIUC Building Inventory dataset to understand historical construction trends and agency resource accumulation.
+In this assignment, I explored the UIUC Building Inventory dataset to understand historical construction trends and agency infrastructure accumulation.
 
 ## Plot 1: Buildings Constructed By Year
 
-This plot visualizes the timeline of building construction for all agencies combined from 1900 to 2019. I chose a Line Chart encoding because the primary goal is to show trends over time (Year Constructed). The Y-axis uses `count()` aggregation to display the amounts of buildings constructed in a given year. 
+This plot visualizes the timeline of building construction for all agencies combined from 1900 to 2019. I chose a Line Chart encoding because the primary goal is to show trends over time (Year Constructed). The Y-axis uses count() aggregation to display the amounts of buildings constructed in a given year. 
 
 I filtered the data to exclude years prior to 1900 since that data contains a lot of missing information, as well as to keep the visualization more relevant to current times. Doing this also allowed the width of the visualization to be reduced, making it easier to read and interperet.
 
